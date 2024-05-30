@@ -1,0 +1,350 @@
+/* =============== HEADER 1 START =============== */
+.header1 {
+    width: 100%;
+    background-color: rgb(62, 105, 62);
+    padding: 10px 30px;
+}
+
+.header1 .contentbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header1 .leftside {
+    display: flex;
+}
+
+.header1 .leftside .hoveritem {
+    margin-right: 30px;
+}
+
+.header1 .leftside .hoveritem i {
+    margin-right: 5px;
+}
+
+.header1 .leftside span {
+    color: #F8F7F2;
+    font-size: 14px;
+    font-family: "Paytone One", sans-serif;
+}
+
+.header1 i {
+    padding: 2px;
+    color: #F8F7F2;
+    font-size: 17px;
+}
+
+.header1 .rightside {
+    display: flex;
+    justify-content: end;
+}
+
+.header1 .hoveritem:hover * {
+    color: rgba(255, 255, 255, 0.352);
+    transition: all .3s ease-out;
+}
+
+.header1 .headerBtn {
+    background-color: none;
+    background: none;
+    border: none;
+    margin-left: 15px;
+}
+
+.dropdown-item:active {
+    background-color: #69A169;
+}
+
+.header1 .dropdown-toggle::after {
+    color: #F8F7F2;
+}
+
+.header1 .dropdown-item {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .header1 .leftside {
+        justify-content: start;
+    }
+
+    .header1 .displaynone {
+        display: none !important;
+    }
+}
+
+/* =============== HEADER 2 START =============== */
+.header2 {
+    width: 100%;
+    z-index: 100;
+    height: auto;
+    padding: 7px 0px 7px 10px;
+    font-family: "Paytone One", sans-serif;
+    /* position: sticky;
+    top: 0; */
+}
+
+.header2 a {
+    padding: 0px 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header2 i {
+    font-size: 0px;
+    font-size: 20px;
+}
+
+.header2 .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.header2 .dropdown-menu a {
+    padding: 12px 18px;
+    font-size: 16px;
+}
+
+.header2 .dropdown:hover .dropdown-menu {
+    display: block;
+} 
+
+.header2 .logbtn {
+    font-size: 14px !important;
+    padding: 15px !important;
+    border-radius: 15px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.header2 .signbtn {
+    margin-left: 5px;
+    font-size: 14px !important;
+    padding: 15px !important;
+    color: #F8F7F2 !important;
+    background: linear-gradient(-45deg, rgb(113, 138, 62), rgb(62, 105, 62), rgb(62, 87, 105)) !important;
+    border-radius: 15px;
+}
+
+.header2 .signbtn:hover {
+    color: #f8f7f284 !important;
+}
+
+.header2 .signbtn:active {
+    color: #f8f7f24e !important;
+}
+
+@media (max-width: 992px) {
+
+    .header2 li {
+        padding: 10px 0px;
+    }
+
+    .header2 .dropdown-menu a {
+        padding: 2px 15px;
+    }
+
+    .header2 .logbtn {
+        font-size: 13px !important;
+        padding: 10px 13px !important;
+    }
+
+    .header2 .signbtn {
+        font-size: 13px !important;
+        padding: 10px 14px !important;
+    }
+}
+
+.modalBtn {
+    border: none !important;
+    background: none !important;
+    padding-right: 10px !important;
+    margin-left: 10px;
+}
+
+.liButton {
+    margin: 5px 0px !important;
+    padding: 0px 0px !important;
+}
+/* .modal-header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+} */
+.closeBtn{
+    background: none;
+    border: none;
+    text-align: end;
+}
+.closeBtn i{
+   font-size: 25px !important;
+}
+.liButton img {
+    padding: 0px 0px 10px !important;
+}
+.badge{
+    font-size: 10px ;
+    top: -5px;
+    left: 5px;
+}
+.modal-content .form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(102, 165, 102, .25);
+    border-color: rgb(102, 165, 102);
+}
+.header2 h6{
+padding: 0px 5px;   }
+/* =============== HEADER 2 START =============== */
+/* =============== Light Mode Start =============== */
+.light .header2 {
+    border-bottom: 1px rgb(62, 105, 62) solid;
+    background-color: #F8F7F2;
+}
+
+.light .header2 a {
+    color: #1a1a1a;
+}
+
+.light .header2 i {
+    color: rgb(62, 105, 62);
+}
+
+.light .header2 .nav-item a:hover {
+    color: #1a1a1abd;
+}
+
+.light .header2 .dropdown-toggle::after {
+    color: #1a1a1a;
+}
+
+.light .header2 .dropdown-item {
+    color: #1a1a1a;
+}
+
+.light .dropdown-menu {
+    background-color: #F8F7F2;
+}
+
+.light .dropdown-item {
+    color: #1a1a1a;
+}
+
+.light .dropdown-item:hover {
+    background-color: #F8F7F2;
+}
+
+.light .dropdown-item:active {
+    background-color: rgba(62, 105, 62, 0.721);
+}
+
+.light .header2 .logbtn {
+    border: 1px solid #23430C !important;
+    color: #23430C !important;
+}
+
+.light .header2 .logbtn:hover {
+    border: 1px solid #23430C;
+    color: #23430ca1 !important;
+    background: transparent !important;
+}
+
+.light .header2 .logbtn:active {
+    border: 1px solid #23430C;
+    color: #23430ca1 !important;
+    background: transparent !important;
+}
+
+/* =============== Dark Mode Start =============== */
+.dark .header2 {
+    border-bottom: 1px rgb(62, 105, 62) solid;
+    background-color: #121212;
+}
+
+.dark .header2 a {
+    color: #F8F7F2;
+}
+
+.dark .header2 i {
+    color: rgb(102, 165, 102);
+}
+
+.dark .header2 .nav-item a:hover {
+    color: #F8F7F2bd;
+}
+.dark .header2 h6{
+ color: #Fff;   
+}
+.dark .header2 .headerlogo {
+    width: 140px !important;
+}
+
+.dark .header2 .headerlogo img {
+    max-width: 100%;
+    padding-right: 20px;
+}
+
+.dark .header2 .dropdown-toggle::after {
+    color: #F8F7F2;
+}
+
+.dark .dropdown-menu {
+    background-color: #121212;
+}
+
+.dark .dropdown-item {
+    color: #F8F7F2;
+}
+
+.dark .dropdown-item:hover {
+    background-color: #1a1a1a;
+}
+
+.dark .dropdown-item:active {
+    background-color: rgb(102, 165, 102);
+}
+
+.dark .header2 .logbtn {
+    border: 1px solid rgb(102, 165, 102);
+    color: rgb(102, 165, 102) !important;
+}
+
+.dark .header2 .logbtn:hover {
+    border: 1px solid rgb(102, 165, 102);
+    color: rgba(102, 165, 102, 0.648) !important;
+    background: transparent !important;
+}
+
+.dark .header2 .logbtn:active {
+    border: 1px solid rgb(102, 165, 102);
+    color: rgb(35, 67, 12) !important;
+    background: transparent !important;
+}
+
+.dark .modal-content {
+    /* border: 1px solid rgb(102, 165, 102); */
+    background-color: #121212;
+    color: #F8F7F2;
+}
+.dark .modal-header  {
+    border-bottom: 1px solid rgb(102, 165, 102);
+
+}
+.dark .modal-content input {
+    background-color: #1A1A1A;
+    color: #F8F7F2;
+}
+
+.dark .modal-content .form-control {
+    border-color: rgb(102, 165, 102);
+}
+
+.dark .modal-content .form-control::placeholder {
+    color: #f8f7f2b2;
+}
+
+.dark .modalLi {
+    background-color: #1A1A1A;
+    border: none;
+}

@@ -1,0 +1,119 @@
+.sec5 {
+    overflow: hidden;
+}
+
+.sec5 .containers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    overflow: hidden;
+}
+.sec5 .leftside  {
+   overflow: hidden !important;
+}
+.sec5 .leftside img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sec5 .rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sec5 .rightside h2 {
+    font-family: "Paytone One", sans-serif;
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.sec5 .rightside button {
+    font-family: "Paytone One", sans-serif;
+}
+
+.sec5 .rightside p {
+    width: 80%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.sec5 .rightside input {
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 75%;
+    background-color: #F8F7F2;
+    border: 1px solid rgb(62, 105, 62);
+    padding: 17px;
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+    .sec5 .rightside h2 {
+        font-size: 40px;
+    }
+
+    .sec5 .rightside p {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .sec5 .containers {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .sec5 .rightside {
+        padding: 10px 0px 40px;
+    }
+
+}
+
+@media (max-width: 375px) {
+   
+ 
+    .sec5 .rightside {
+        padding: 10px 0px 10px;
+        position: relative;
+        top: -60px;
+    }
+}
+
+
+/* =============== Light Mode Start =============== */
+.light .sec5 {
+    background-color: #F8F7F2;
+    border: 1px solid rgb(62, 105, 62);
+}
+
+.light .sec5 .rightside input {
+    background-color: #F8F7F2;
+    border: 1px solid rgb(62, 105, 62);
+}
+
+/* =============== Dark Mode Start =============== */
+.dark .sec5 {
+    background-color: #121212;
+    border: 1px solid rgb(122, 165, 122);
+    color: #F8F7F2;
+}
+
+.dark .sec5 .rightside h2 {
+    color: #F8F7F2;
+}
+
+.dark .sec5 .rightside input {
+    background-color: #1a1a1a;
+    border: 1px solid rgb(122, 165, 122);
+}
+
+.dark .sec5 .rightside input::placeholder {
+    color: #f8f7f2b4;
+}

@@ -1,0 +1,225 @@
+* {
+    text-decoration: none !important;
+}
+
+.singleCard {
+    width: 100%;
+    overflow: hidden;
+}
+
+.singleCard .imgBox {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.singleCard .imgBox img {
+    padding: 20px !important;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+}
+
+.singleCard .backImg {
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.singleCard:hover .backImg {
+    opacity: 1;
+}
+
+.singleCard .cardText {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.singleCard h2,
+h4 {
+    font-family: "Paytone One", sans-serif;
+}
+
+.singleCard .cardText h2 {
+    font-size: 23px !important;
+}
+
+.singleCard .cardText p {
+    font-size: 15px !important;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 10px 0px;
+}
+
+.singleCard .hoverItem {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.singleCard .hoverItem h4 {
+    font-size: 18px !important;
+    position: absolute;
+}
+
+.singleCard .cardText .hoverItem h6 {
+    font-size: 14px !important;
+    position: absolute;
+    display: none;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-family: "Paytone One", sans-serif;
+}
+
+.singleCard:hover .cardText .hoverItem h6 {
+    display: block;
+}
+
+.singleCard:hover .cardText .hoverItem h4 {
+    display: none;
+}
+
+.singleCard .cardButton1 {
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 5%;
+    left: -15%;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.singleCard button {
+    background: none;
+    border: none;
+}
+
+.singleCard button i {
+    font-size: 30px;
+}
+
+.card:hover .cardButton1 {
+    left: 5%;
+}
+
+.cardButton2 {
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 5%;
+    right: -15%;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.card:hover .cardButton2 {
+    right: 5%;
+}
+
+@media (max-width: 992px) {
+    .singleCard .imgBox {
+        height: 250px;
+    }
+
+    .singleCard .cardText h2 {
+        font-size: 23px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .singleCard .hoverItem h4 {
+        font-size: 19px !important;
+    }
+
+    .singleCard .cardText .hoverItem h6 {
+        font-size: 15px !important;
+    }
+
+    .singleCard .cardText p {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .singleCard .hoverItem h4 {
+        font-size: 15px !important;
+    }
+
+    .singleCard .cardText .hoverItem h6 {
+        font-size: 12px !important;
+    }
+
+    .singleCard .cardText h2 {
+        margin-top: 10px;
+        font-size: 17px !important;
+    }
+
+    .singleCard .imgBox {
+        height: 215px;
+    }
+}
+
+@media (max-width: 376px) {
+    .singleCard .hoverItem h4 {
+        font-size: 13px !important;
+    }
+
+    .singleCard .cardText .hoverItem h6 {
+        font-size: 10px !important;
+    }
+
+    .singleCard .cardText h2 {
+        font-size: 15px !important;
+    }
+
+    .singleCard .imgBox {
+        height: 150px;
+    }
+}
+/* =============== Light Mode Start =============== */
+.light .singleCard {
+    background-color: #F8F7F2;
+    border: 1px solid rgb(62, 105, 62);
+}
+.light .singleCard h2 {
+    color: #1a1a1a !important;
+}
+.light .singleCard
+h4 {
+    color: #1a1a1a !important;
+}
+.light .singleCard .cardText p {
+    color: #1a1a1a;
+}
+.light .singleCard .cardText .hoverItem h4 {
+    color: rgb(62, 105, 62);
+}
+.light .singleCard .cardText .hoverItem h6 {
+    color: rgb(62, 105, 62);
+}
+.light .singleCard button i {
+    color: rgb(62, 105, 62);
+}
+/* =============== Dark Mode Start =============== */
+.dark .singleCard {
+    background-color: #1A1A1A;
+    border: 1px solid rgb(122, 165, 122);
+}
+.dark .singleCard h2 {
+    color: #F8F7F2 !important;
+}
+.dark .singleCard h4 {
+    color: #F8F7F2 !important;
+}
+.dark .singleCard .cardText p {
+    color: #F8F7F2;
+}
+.dark .singleCard .cardText .hoverItem h6 {
+    color: rgb(122, 165, 122);
+}
+.dark .singleCard button i {
+    color: rgb(122, 165, 122);
+}

@@ -1,0 +1,89 @@
+.blogform {
+    overflow: hidden;
+    padding: 30px 0px;
+
+}
+
+.blogform h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: "Paytone One", sans-serif;
+    padding: 30px 0px;
+}
+
+
+@media (max-width: 576px) {
+    .blogform h1 {
+        font-size: 35px !important;
+        margin-bottom: 15px;
+    }
+    
+        
+}
+/* =============== Light Mode Start =============== */
+.light .blogform {
+    background-color: #F8F7F2;
+    color: #1a1a1a;
+}
+.light .blogform div input {
+    border: solid 1px rgb(62, 105, 62);
+    background-color: #F8F7F2;
+}
+
+.light .blogform div input:focus {
+    border: solid 1px rgb(62, 105, 62);
+    box-shadow: 0 0 0 0.25rem rgba(62, 105, 62, 0.279);
+    background-color: #F8F7F2;
+}
+
+.light .blogform div textarea {
+    border: solid 1px rgb(62, 105, 62);
+    background-color: #F8F7F2;
+}
+
+.light .blogform div textarea:focus {
+    border: solid 1px rgb(62, 105, 62);
+    box-shadow: 0 0 0 0.25rem rgba(62, 105, 62, 0.279);
+    background-color: #F8F7F2;
+}
+/* =============== Dark Mode Start =============== */
+.dark .blogform {
+    background-color: #121212;
+    color: #F8F7F2;
+}
+.dark .blogform div input {
+    border: solid 1px rgb(122, 165, 122);
+    background-color: #1A1A1A;
+}
+
+.dark .blogform div input::placeholder {
+    color: #F8F7F2 !important;
+}
+
+.dark .blogform div input:focus {
+    border: solid 1px rgb(122, 165, 122);
+    box-shadow: 0 0 0 0.25rem rgba(122, 165, 122, 0.279);
+    background-color: #1A1A1A;
+}
+
+.dark .blogform div textarea {
+    width: 400px;
+    border: solid 1px rgb(122, 165, 122);
+    background-color: #1A1A1A;
+}
+
+.dark .blogform div textarea::placeholder {
+    color: #F8F7F2;
+}
+
+.dark .blogform div textarea:focus {
+    border: solid 1px rgb(6122, 165, 122);
+    box-shadow: 0 0 0 0.25rem rgba(122, 165, 122, 0.279);
+    background-color: #1A1A1A;
+}
+.dark .blogform input{
+    color: #F8F7F2;
+}
+.dark .blogform textarea{
+    color: #F8F7F2;
+}

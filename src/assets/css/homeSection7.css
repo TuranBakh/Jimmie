@@ -1,0 +1,76 @@
+.sec7 {
+    overflow: hidden;
+    width: 100%;
+    height: 90vh;
+    background-image: url('../../src/assets/img/h1-img-4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sec7 .content .centered {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color: #F8F7F2;
+}
+
+.sec7 .content .centered h2 {
+    text-align: end;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 120px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(62, 105, 62);
+    text-shadow: 0px 1px 1px #23430C;
+    padding: 30px 0px;
+}
+
+.sec7 .content .centered h2 span {
+    font-size: 110px;
+}
+
+@media (max-width: 1200px) {
+    .sec7 .content .centered h2 {
+        font-size: 100px;
+    }
+
+    .sec7 .content .centered h2 span {
+        font-size: 90px;
+    }
+}
+
+@media (max-width: 992px) {
+    .sec7 .content .centered {
+        left: 70%;
+    }
+
+    .sec7 .content .centered h2 {
+        font-size: 90px;
+    }
+
+    .sec7 .content .centered h2 span {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sec7 .content .centered {
+        left: 50%;
+    }
+
+    .sec7 .content .centered h2 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .sec7 .content .centered h2 {
+        font-size: 60px;
+    }
+
+    .sec7 .content .centered h2 span {
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,219 @@
+.sec10 {
+    overflow: hidden;
+    padding: 100px 0px;
+}
+
+.sec10 .leftside {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sec10 .leftside h2 {
+    font-family: "Paytone One", sans-serif;
+    padding-top: 50px;
+}
+
+.sec10 .leftside p {
+    width: 90%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+}
+
+.btnBox {
+    padding-bottom: 50px;
+}
+.btnBox .btn {
+    font-family: "Paytone One", sans-serif;
+}
+
+
+.sec10 .rightside {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    position: relative;
+    text-align: center;
+}
+
+.sec10 .rightside img {
+    max-width: 95%;
+    height: auto;
+}
+
+.top-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 116px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h3 {
+    font-size: 60px;
+}
+
+h5 {
+    font-size: 70px;
+}
+
+.text_shadows {
+    text-shadow: 3px 3px 0 #3E693E, 6px 6px 0 #69A169, 9px 9px #7EAE7E, 12px 12px 0 var #90BA90;
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: transparent;
+    background-color: #F8F7F2;
+    background-clip: text;
+}
+
+.text_anim1 {
+
+    animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
+}
+
+.text_anim2 {
+    animation: shadows 1.4s ease-in infinite, move 1.4s ease-in infinite;
+}
+
+.text_anim3 {
+    animation: shadows 1.6s ease-in infinite, move 1.6s ease-in infinite;
+}
+
+@keyframes shadows {
+    10% {
+        text-shadow: 3px 3px 0 #3E693E;
+    }
+
+    20% {
+        text-shadow: 3px 3px 0 #3E693E,
+            6px 6px 0 #69A169;
+    }
+
+    30% {
+        text-shadow: 3px 3px 0 #3E693E,
+            6px 6px 0 #69A169, 9px 9px #7EAE7E;
+    }
+
+    40% {
+        text-shadow: 3px 3px 0 #3E693E,
+            6px 6px 0 #69A169, 9px 9px #7EAE7E,
+            12px 12px 0 #90BA90;
+    }
+
+    50% {
+        text-shadow: 3px 3px 0 #3E693E,
+            6px 6px 0 #69A169, 9px 9px #7EAE7E,
+            12px 12px 0 #90BA90;
+    }
+
+    60% {
+        text-shadow: 3px 3px 0 #3E693E,
+            6px 6px 0 #69A169, 9px 9px #7EAE7E,
+            12px 12px 0 #90BA90;
+    }
+
+    70% {
+        text-shadow: 3px 3px 0 #3E693E,
+            6px 6px 0 #69A169, 9px 9px #7EAE7E;
+    }
+
+    80% {
+        text-shadow: 3px 3px 0 #3E693E,
+            6px 6px 0 #69A169;
+    }
+
+    90% {
+        text-shadow: 3px 3px 0 #3E693E;
+    }
+}
+
+@keyframes move {
+
+
+    40% {
+        transform: translate(-12px, -12px);
+    }
+
+    50% {
+        transform: translate(-12px, -12px);
+    }
+
+    60% {
+        transform: translate(-12px, -12px);
+    }
+
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .sec10 .leftside h2 {
+        padding-top: 0px;
+    }
+
+    .sec10 .leftside p {
+        font-size: 14px;
+    }
+
+    .btnBox {
+        padding-bottom: 0px;
+    }
+
+    h1 {
+        font-size: 60px !important;
+    }
+
+    h3 {
+        font-size: 35px !important;
+    }
+
+    h5 {
+        font-size: 50px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .sec10 .leftside h2 {
+        padding: 0px 0px 30px;
+    }
+
+    .btnBox {
+        padding: 30px 0px 50px;
+    }
+}
+
+/* =============== Light Mode Start =============== */
+.light .sec10 {
+    background-color: #F8F7F2;
+}
+
+/* =============== Dark Mode Start =============== */
+.dark .sec10 {
+    background-color: #121212 !important;
+}
+.dark .sec10 .leftside h2 {
+    color: #F8F7F2;
+}
+.dark .sec10 .leftside p {
+    color: #F8F7F2;
+}

@@ -1,0 +1,86 @@
+@import url(./notFoundPage.css);
+@import url(./aboutUs.css);
+@import url(./faq.css);
+@import url(./header.css);
+@import url(./homeSection1.css);
+@import url(./homeSection2.css);
+@import url(./homeSection3.css);
+@import url(./homeSection4.css);
+@import url(./homeSection5.css);
+@import url(./homeSection6.css);
+@import url(./homeSection7.css);
+@import url(./homeSection8.css);
+@import url(./homeSection9.css);
+@import url(./homeSection10.css);
+@import url(./homeSection11.css);
+@import url(./products.css);
+@import url(./footer.css);
+@import url(./contactUs.css);
+@import url(./horizontalAnimation.css);
+@import url(./ourTeam.css);
+@import url(./singleCard.css);
+@import url(./detailsPage.css);
+@import url(./singleCardBlog.css);
+@import url(./cart.css);
+@import url(./wishlist.css);
+@import url(./login.css);
+@import url(./complete.css);
+@import url(./checkout.css);
+@import url(./blog.css);
+@import url(./dashboard.css);
+@import url(./comment.css);
+@import url(./blogForm.css);
+@import url(./blogdetail.css);
+@import url(./register.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+.btn {
+    padding: 20px 40px;
+    font-family: "Paytone One", sans-serif;
+    color: #F8F7F2;
+    background: linear-gradient(-45deg, rgb(113, 138, 62), rgb(62, 105, 62), rgb(62, 87, 105));
+    background-size: 500%;
+    border-radius: 15px;
+    animation: anime 5s linear infinite;
+}
+
+@keyframes anime {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.btn:hover {
+    color: #F8F7F2;
+}
+
+.btn:active {
+    color: #F8F7F2 !important;
+
+}

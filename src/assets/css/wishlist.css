@@ -1,0 +1,134 @@
+.wishlist {
+    overflow: hidden;
+    padding: 30px 0px;
+}
+
+.wishlist h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: "Paytone One", sans-serif;
+    padding: 30px;
+}
+
+.wishlist td {
+    vertical-align: middle;
+}
+.wishlist th {
+    vertical-align: middle;
+}
+.wishlist .btn-dec {
+    color: #F8F7F2;
+    background-color: red;
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding: 0 0 3px 0;
+    margin: 0;
+    border-radius: 5px;
+}
+.wishlist .linetotal{
+    border-top: #dee2e6 1px solid;
+}
+.wishlist .btn-inc {
+    color: #F8F7F2;
+    background-color: green;
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding: 0 0 3px 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.wishlist .btn-del {
+    color: #F8F7F2;
+    background-color: green;
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding: 0 0 3px 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.wishlist .total {
+    border-radius: 0.375rem ;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+}
+
+.wishlist .totalItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wishlist h2 {
+    margin: 0px 0px 20px;
+    font-family: "Paytone One", sans-serif;
+    font-size: 25px;
+}
+
+.wishlist h3 {
+    font-family: "Paytone One", sans-serif;
+    font-size: 20px;
+}
+
+.wishlist .promo .btn{
+    padding: 5px 10px !important;
+    border-radius: 0.375rem ;
+}.confirmBtn .confirmBtn2{
+    width: 100%;
+    border-radius: 0.375rem ;
+
+}
+.wishlist input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(102, 165, 102, .25);
+    border-color: rgb(102, 165, 102);
+}
+/* =============== Light Mode Start =============== */
+.light .wishlist {
+    background-color: #F8F7F2;
+    color: #1a1a1a;
+}
+.light .table{
+    background-color: #F8F7F2 !important;
+    color: #1a1a1a;
+}
+.light .wishlist .total{
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+/* =============== Dark Mode Start =============== */
+.dark .wishlist {
+    background-color: #121212;
+    color: #F8F7F2;
+}
+.dark .wishlist .table *{
+    color: #F8F7F2;
+}
+.dark .wishlist .table th{
+    background: #1a1a1a;
+}
+.dark .wishlist .table td{
+    background: #1a1a1a;
+} 
+.dark .wishlist .total{
+    background-color: #1a1a1a;
+    border: 1px solid #dee2e6;
+}
+.wishlist a h2 {
+    color: #1a1a1a !important; /* light mod için */
+}
+
+.dark .wishlist h2, .dark .wishlist p {
+    color: #F8F7F2; /* dark mod için */
+}
+.wishlist h2 {
+    font-size: 20px; /* Font boyutunu istediğiniz gibi ayarlayın */
+}
+
+.wishlist p {
+    font-size: 16px; /* Font boyutunu istediğiniz gibi ayarlayın */
+}

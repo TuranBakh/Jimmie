@@ -1,0 +1,118 @@
+.sec11 {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.sec11 .mainImg {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sec11 .review2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0px;
+    justify-content: space-around;
+}
+
+.sec11 .review2 h4 {
+    font-family: "Paytone One", sans-serif;
+    font-size: 28px;
+}
+
+.sec11 .review2 i {
+    font-size: 15px;
+}
+
+.sec11 .review2 p {
+    width: 80%;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+@media (max-width: 992px) {
+    .sec11 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    footer .firstHourBox {
+        margin-top: 0px !important;
+    }
+
+}
+
+@media (max-width: 567px) {
+    .sec11 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+}
+
+/* @media (min-width: 2076px) {
+    .sec11 .review2 {
+        padding: 150px 0px;
+    }
+    .sec11 .mainImg {
+        display: none;
+    }
+    .sec11 .bgImg1{
+        width: 100%;
+        height: auto;
+        background-image: url('../../src/assets/img/h1-review-1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+} */
+
+/* =============== Light Mode Start =============== */
+.light .sec11 {
+    background-color: #F8F7F2;
+}
+
+.light .sec11 .review2 {
+    border: 1px solid rgb(62, 105, 62);
+}
+
+.light .sec11 .review2 h4 {
+    color: #1a1a1a;
+}
+
+.light .sec11 .review2 i {
+    color: rgb(62, 105, 62);
+}
+
+.light .sec11 .review2 p {
+    color: #1a1a1a;
+}
+
+/* =============== Dark Mode Start =============== */
+.dark .sec11 {
+    background-color: #121212 !important;
+}
+
+.dark .sec11 .review2 {
+    border: 1px solid rgb(122, 165, 122);
+}
+
+.dark .sec11 .review2 h4 {
+    color: #F8F7F2;
+}
+
+.dark .sec11 .review2 i {
+    color: rgb(122, 165, 122);
+}
+.dark .sec11 .review2 p {
+    color: #F8F7F2;
+}

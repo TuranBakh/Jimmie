@@ -1,0 +1,266 @@
+.contactUs {
+    overflow: hidden !important;
+}
+
+.contactImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.contactImg img {
+    max-width: 80%;
+    height: auto;
+}
+
+.contactContext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.contactUs h1{
+    font-size: 45px;
+    font-family: "Paytone One", sans-serif;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.contactUs button{
+    font-family: "Paytone One", sans-serif;
+    text-align: center;
+}
+.contactUs h2 {
+    font-size: 25px;
+    font-family: "Paytone One", sans-serif;
+    margin: 15px 0px;
+}
+
+.contactUs a {
+    display: block;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.getInTouch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.getInTouch div input {
+    width: 400px;
+    height: 40px;
+}
+
+.getInTouch div textarea {
+    width: 400px;
+}
+
+
+.contactSec {
+    height: 95vh;
+}
+
+.contactMap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .contactSecondSec {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .contactImg {
+        padding: 20px;
+    }
+
+    .contactImg img {
+        max-width: 100%;
+    }
+
+    .contactContext {
+        padding: 30px;
+    }
+
+    .contactUs h1 {
+        font-size: 40px !important;
+        margin-bottom: 15px;
+    }
+
+    .contactUs h2 {
+        font-size: 20px;
+        margin: 15px 0px;
+    }
+
+    .contactUs a {
+        font-size: 14px;
+    }
+
+    .getInTouch div input {
+        width: 300px;
+        height: 40px;
+    }
+
+    .getInTouch div textarea {
+        width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactImg {
+        padding: 20px 0px;
+    }
+
+    .contactImg img {
+        max-width: 70%;
+    }
+
+    .contactContext {
+        padding: 60px;
+    }
+
+    .contactUs h1 {
+        font-size: 45px !important;
+        margin-bottom: 15px;
+    }
+
+    .contactUs h2 {
+        margin: 15px 0px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .contactUs h1 {
+        font-size: 35px !important;
+        margin-bottom: 15px;
+    }
+    
+   
+}
+
+/* =============== Light Mode Start =============== */
+.light .contactUs {
+    background-color: #F8F7F2;
+}
+
+.light .contactImg {
+    border: 1px solid rgb(62, 105, 62);
+}
+
+.light .contactContext {
+    border: 1px solid rgb(62, 105, 62);
+}
+
+.light .contactUs a {
+    color: #1a1a1a !important;
+}
+.light .contactUs h1{
+    color: #1a1a1a !important;
+}
+.light .contactUs h2 {
+    color: #1a1a1a !important;
+}
+
+.light .getInTouch div input {
+    border: solid 1px rgb(62, 105, 62);
+    background-color: #F8F7F2;
+}
+
+.light .getInTouch div input:focus {
+    border: solid 1px rgb(62, 105, 62);
+    box-shadow: 0 0 0 0.25rem rgba(62, 105, 62, 0.279);
+    background-color: #F8F7F2;
+}
+
+.light .getInTouch div textarea {
+    border: solid 1px rgb(62, 105, 62);
+    background-color: #F8F7F2;
+}
+
+.light .getInTouch div textarea:focus {
+    border: solid 1px rgb(62, 105, 62);
+    box-shadow: 0 0 0 0.25rem rgba(62, 105, 62, 0.279);
+    background-color: #F8F7F2;
+}
+
+.light .contactSec {
+    border: 1px solid rgb(62, 105, 62);
+}
+
+
+/* =============== Dark Mode Start =============== */
+.dark .contactUs {
+    background-color: #121212 !important;
+}
+
+.dark .contactImg {
+    border: 1px solid rgb(122, 165, 122);
+}
+
+.dark .contactContext {
+    border: 1px solid rgb(122, 165, 122);
+}
+
+.dark .getInTouch div input {
+    border: solid 1px rgb(122, 165, 122);
+    background-color: #1A1A1A;
+}
+
+.dark .getInTouch div input::placeholder {
+    color: #F8F7F2 !important;
+}
+
+.dark .getInTouch div input:focus {
+    border: solid 1px rgb(122, 165, 122);
+    box-shadow: 0 0 0 0.25rem rgba(122, 165, 122, 0.279);
+    background-color: #1A1A1A;
+}
+
+.dark .getInTouch div textarea {
+    width: 400px;
+    border: solid 1px rgb(122, 165, 122);
+    background-color: #1A1A1A;
+}
+
+.dark .getInTouch div textarea::placeholder {
+    color: #F8F7F2;
+}
+
+.dark .getInTouch div textarea:focus {
+    border: solid 1px rgb(6122, 165, 122);
+    box-shadow: 0 0 0 0.25rem rgba(122, 165, 122, 0.279);
+    background-color: #1A1A1A;
+}
+
+.dark .contactSec {
+    border: 1px solid rgb(122, 165, 122);
+}
+
+.dark .contactUs h1{
+    color: #F8F7F2 !important;
+}
+.dark .contactUs h2{
+    color: #F8F7F2 !important;
+}
+.dark .contactUs  a {
+    color: #F8F7F2 !important;
+}
+

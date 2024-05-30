@@ -1,0 +1,217 @@
+.faq {
+    overflow: hidden;
+}
+
+.accordion {
+    max-width: 80%;
+}
+
+.faqAccarddion {
+    padding: 40px 0px 10px 100px;
+}
+
+.accordion-button {
+    font-family: "Paytone One", sans-serif;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+.accordion-button:not(.collapsed) {
+    box-shadow: none;
+}
+
+.accordion-button:active {
+    box-shadow: none;
+}
+
+.accordion-button.collapsed {
+    box-shadow: none;
+}
+
+.accordion-body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+}
+
+.faqImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.faqImg img {
+    max-width: 50%;
+    height: auto;
+}
+
+.faq .leftSide {
+    padding-top: 40px;
+    padding-right: 50px;
+}
+
+.faq .leftSide h2 {
+    font-size: 25px;
+    font-family: "Paytone One", sans-serif;
+    margin-bottom: 15px;
+}
+
+.faq .leftSide p {
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.faq .leftSide a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.faq .leftSide .margin {
+    margin-bottom: 30px;
+}
+
+.faq .leftSide .imgBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 30px;
+}
+
+.faq .leftSide img {
+    max-width: 80%;
+    height: auto;
+}
+
+@media (max-width: 992px) {
+    .faqImg img {
+        max-width: 70%;
+        height: auto;
+    }
+
+    .accordion-button {
+        font-size: 22px;
+    }
+
+    .accordion-body {
+        font-size: 16px;
+    }
+
+    .faq .leftSide h2 {
+        font-size: 22px;
+    }
+
+    .faq .leftSide p {
+        font-size: 16px;
+    }
+
+    .faq .leftSide a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .faqImg img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .faq .leftSide {
+        padding: 40px 30px 40px 40px;
+    }
+
+    .faq .leftSide .imgBox {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .faq .leftSide img {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 576px) {
+    .faqAccarddion {
+        padding: 40px 0px 10px 50px;
+    }
+
+    .accordion-button {
+        font-size: 20px;
+    }
+
+    .faq .leftSide h2 {
+        font-size: 20px;
+    }
+}
+
+/* =============== Light Mode Start =============== */
+.light .faq * {
+    background-color: #F8F7F2;
+    color: #1a1a1a;
+}
+
+.light .accordion-body {
+    color: #1a1a1a;
+}
+
+.light .accordion-button {
+    color: #1a1a1a;
+}
+
+.light .accordion-button:not(.collapsed) {
+    color: rgb(62, 105, 62);
+}
+
+.light .accordion-button:active {
+    color: rgb(62, 105, 62);
+}
+
+.light .faq .leftSide a {
+    color: #1a1a1a;
+}
+
+.light .faq .leftSide h2 {
+    color: #1a1a1a;
+}
+
+.light .faq .leftSide p {
+    color: #1a1a1a;
+}
+
+/* =============== Dark Mode Start =============== */
+.dark .faq * {
+    background-color: #121212 !important;
+}
+
+.dark .accordion-body {
+    color: #F8F7F2;
+}
+
+.dark .accordion-button {
+    color: #F8F7F2;
+}
+
+.dark .accordion-button:not(.collapsed) {
+    color: rgb(122, 165, 122);
+}
+
+.dark .accordion-button:active {
+    color: rgb(122, 165, 122);
+}
+
+.dark .faq .leftSide a {
+    color: #F8F7F2;
+}
+
+.dark .faq .leftSide h2 {
+    color: #F8F7F2;
+}
+
+.dark .faq .leftSide p {
+    color: #F8F7F2;
+}

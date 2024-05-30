@@ -1,0 +1,307 @@
+.complete {
+    overflow: hidden;
+    padding: 70px 0px;
+}
+
+.complete h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: "Paytone One", sans-serif;
+    padding: 0px 0px 30px;
+}
+
+.complete .context {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.complete p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.complete .imgBox {
+    text-align: end;
+}
+
+.complete img {
+    max-width: 100%;
+}
+
+.complete .randomTitle {
+    font-size: 55px;
+}
+
+* {
+    text-decoration: none !important;
+}
+
+.complete .singleCard2 {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.complete .singleCard2 .imgBox {
+    position: relative;
+    width: 100%;
+    height: 250px;
+}
+
+.complete .singleCard2 .imgBox img {
+    padding: 20px !important;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    position: absolute;
+}
+
+.complete .singleCard2 .backImg {
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.complete .singleCard2:hover .backImg {
+    opacity: 1;
+}
+
+.complete .singleCard2 .cardText {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.complete .singleCard2 h2,
+h4 {
+    font-family: "Paytone One", sans-serif;
+}
+
+.complete .singleCard2 .cardText h2 {
+    font-size: 23px !important;
+}
+
+.complete .singleCard2 .cardText p {
+    font-size: 15px !important;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 10px 0px;
+}
+
+.complete .singleCard2 .hoverItem {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.complete .singleCard2 .hoverItem h4 {
+    font-size: 18px !important;
+    position: absolute;
+}
+
+.complete .singleCard2 .cardText .hoverItem h6 {
+    font-size: 14px !important;
+    position: absolute;
+    display: none;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    font-family: "Paytone One", sans-serif;
+}
+
+.complete .singleCard2:hover .cardText .hoverItem h6 {
+    display: block;
+}
+
+.complete .singleCard2:hover .cardText .hoverItem h4 {
+    display: none;
+}
+
+.complete .singleCard2 .cardButton1 {
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 5%;
+    left: -20%;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.complete .singleCard2 button {
+    background: none;
+    border: none;
+}
+
+.complete .singleCard2 button i {
+    font-size: 30px;
+}
+
+.card:hover .cardButton1 {
+    left: 5%;
+}
+
+.cardButton2 {
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 5%;
+    right: -15%;
+    z-index: 1;
+    transition: all 0.4s ease 0s;
+}
+
+.card:hover .cardButton2 {
+    right: 5%;
+}
+
+@media (max-width: 1024px) {
+    .complete .singleCard2 .imgBox {
+        height: 200px;
+    }
+}
+@media (max-width: 992px) {
+    .complete .singleCard2 .imgBox {
+        height: 300px;
+    }
+
+    .complete .singleCard2 .cardText h2 {
+        font-size: 23px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .complete .singleCard2 .hoverItem h4 {
+        font-size: 19px !important;
+    }
+
+    .complete .singleCard2 .cardText .hoverItem h6 {
+        font-size: 15px !important;
+    }
+
+    .complete .singleCard2 .cardText p {
+        font-size: 15px !important;
+    }
+    .complete .singleCard2 .imgBox {
+        height: 300px;
+    }
+}
+@media (max-width: 767px) {
+   
+  
+}
+@media (max-width: 576px) {
+    .complete .singleCard2 .hoverItem h4 {
+        font-size: 15px !important;
+    }
+
+    .complete .singleCard2 .cardText .hoverItem h6 {
+        font-size: 12px !important;
+    }
+
+    .complete .singleCard2 .cardText h2 {
+        margin-top: 10px;
+        font-size: 17px !important;
+    }
+    .complete .singleCard2 .imgBox {
+        height: 400px;
+    }
+   
+}
+@media (max-width: 425px) {
+    
+    .complete .singleCard2 .imgBox {
+        height: 350px;
+    }
+
+   
+}
+@media (max-width: 376px) {
+    .complete .singleCard2 .hoverItem h4 {
+        font-size: 13px !important;
+    }
+
+    .complete .singleCard2 .cardText .hoverItem h6 {
+        font-size: 10px !important;
+    }
+
+    .complete .singleCard2 .cardText h2 {
+        font-size: 15px !important;
+    }
+
+    .complete .singleCard2 .imgBox {
+        height: 300px;
+    }
+
+}
+
+/* =============== Light Mode Start =============== */
+.light .complete .singleCard2 {
+    background-color: #F8F7F2;
+    border: 1px solid rgb(62, 105, 62);
+}
+
+.light .complete .singleCard2 h2 {
+    color: #1a1a1a !important;
+}
+
+.light .complete .singleCard2 h4 {
+    color: #1a1a1a !important;
+}
+
+.light .complete .singleCard2 .cardText p {
+    color: #1a1a1a;
+}
+
+.light .complete .singleCard2 .cardText .hoverItem h4 {
+    color: rgb(62, 105, 62);
+}
+
+.light .complete .singleCard2 .cardText .hoverItem h6 {
+    color: rgb(62, 105, 62);
+}
+
+.light .complete .singleCard2 button i {
+    color: rgb(62, 105, 62);
+}
+
+/* =============== Dark Mode Start =============== */
+.dark .complete .singleCard2 {
+    background-color: #1A1A1A;
+    border: 1px solid rgb(122, 165, 122);
+}
+
+.dark .complete .singleCard2 h2 {
+    color: #F8F7F2 !important;
+}
+
+.dark .complete .singleCard2 h4 {
+    color: #F8F7F2 !important;
+}
+
+.dark .complete .singleCard2 .cardText p {
+    color: #F8F7F2;
+}
+
+.dark .complete .singleCard2 .cardText .hoverItem h6 {
+    color: rgb(122, 165, 122);
+}
+
+.dark .complete .singleCard2 button i {
+    color: rgb(122, 165, 122);
+}
+
+/* =============== Light Mode Start =============== */
+.light .complete {
+    background-color: #F8F7F2;
+    color: #1a1a1a;
+}
+
+/* =============== Dark Mode Start =============== */
+.dark .complete {
+    background-color: #121212;
+    color: #F8F7F2;
+}

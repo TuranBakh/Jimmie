@@ -1,0 +1,210 @@
+.register {
+    overflow: hidden;
+    padding: 50px 20px 70px;
+}
+
+.register .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: "Paytone One", sans-serif;
+    padding: 50px 0px 70px;
+}
+
+.register .buttonBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registerform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.registerform .form-box {
+    background-color: rgba(0, 0, 0, 0.826);
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 15px;
+}
+
+.registerform .user {
+    text-align: center;
+    color: rgb(62, 105, 62);
+}
+
+.registerform .header {
+    margin-bottom: 25px;
+}
+
+.register .confirmBtn{
+    font-size: 14px !important;
+    padding: 15px !important;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Paytone One", sans-serif;
+    padding: 20px 40px;
+    color: #F8F7F2;
+    background: linear-gradient(-45deg, rgb(113, 138, 62), rgb(62, 105, 62), rgb(62, 87, 105));
+    background-size: 500%;
+    animation: anime 5s linear infinite;
+    border: none;
+}
+
+.registerform .social {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.light .registerform .fa {
+    color: rgb(62, 105, 62) !important;
+    font-size: 20px;
+}
+
+.light .registerform .social i {
+    color: rgb(62, 105, 62) !important;
+    font-size: 35px;
+}
+
+.light .registerform .social i:hover {
+    color: rgba(62, 105, 62, 0.65) !important;
+    transition: all .2s ease-out;
+}
+
+.registerimg {
+    max-width: 80%;
+}
+
+
+.light .register {
+    background-color: #F8F7F2;
+}
+
+.dark .register {
+    background-color: #121212 !important;
+    color: #F8F7F2;
+}
+
+.dark .registerform .social i {
+    color: rgb(122, 165, 122);
+    font-size: 35px;
+}
+
+.dark .registerform .social i:hover {
+    color: rgba(122, 165, 122, 0.65) !important;
+    transition: all .2s ease-out;
+}
+
+.dark .registerform .fa {
+    color: rgb(122, 165, 122) !important;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .register .col-md-7 {
+        display: none;
+    }
+
+    .register h1 {
+        text-align: center;
+        font-size: 75px;
+        font-family: "Paytone One", sans-serif;
+        padding: 50px 0px 70px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .register h1 {
+        text-align: center;
+        font-size: 55px;
+        font-family: "Paytone One", sans-serif;
+        padding: 30px 0px 50px;
+    }
+
+    .registerform .social i {
+        color: rgb(62, 105, 62) !important;
+        font-size: 25px;
+    }
+}
+
+.input-group-text {
+    background-color: #FFF !important;
+}
+
+
+
+.adminLogin {
+    overflow: hidden;
+    padding: 0px 20px 70px;
+
+}
+
+.adminLogin h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: "Paytone One", sans-serif;
+    padding: 50px 0px 70px;
+}
+
+.light .adminLogin {
+    background-color: #F8F7F2;
+}
+
+.dark .adminLogin {
+    background-color: #121212 !important;
+    color: #F8F7F2;
+}
+
+.register .logbtn {
+    font-size: 14px !important;
+    padding: 15px !important;
+    border-radius: 15px;
+    margin-left: 10px;
+    font-family: "Paytone One", sans-serif;
+    width: 48%;
+    text-align: center;
+    border: 1px solid rgb(102, 165, 102);
+    color: rgb(102, 165, 102) !important;
+
+}
+
+.register .btn {
+    width: 48%;
+    font-size: 14px !important;
+    padding: 15px !important;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Paytone One", sans-serif;
+}
+
+.register .logbtn:hover {
+    border: 1px solid rgb(102, 165, 102);
+    color: rgba(102, 165, 102, 0.648) !important;
+    background: transparent !important;
+}
+
+.register .logbtn:active {
+    border: 1px solid rgb(102, 165, 102);
+    color: rgb(35, 67, 12) !important;
+    background: transparent !important;
+}
+.light .register .icons {
+    color: rgb(62, 105, 62) !important;
+    font-size: 20px;
+}
+.dark .register .icons {
+    color: rgb(122, 165, 122) !important;
+    font-size: 20px;
+}

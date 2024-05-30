@@ -1,0 +1,184 @@
+.sec4 {
+    overflow: hidden;
+    padding: 100px 0px;
+}
+
+.sec4 .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+}
+
+.sec4 .container .productCard {
+    width: 100%;
+    position: relative;
+    padding: 50px 20px;
+}
+
+.sec4 .container .productCard .cardText {
+    width: 100%;
+    display: block;
+    transition: .5s ease;
+    opacity: 1;
+    text-align: center;
+}
+
+.sec4 .container .productCard:hover .cardText {
+    opacity: 0;
+    z-index: 0;
+}
+
+.sec4 .container .productCard h2{
+    font-family: "Paytone One", sans-serif;
+}
+.sec4 .container .productCard h4 {
+    font-family: "Paytone One", sans-serif;
+}
+
+.sec4 .container .productCard .cardText h2 {
+    padding: 3px 0px;
+    font-size: 25px !important;
+}
+
+.sec4 .container .productCard .cardText p {
+    font-size: 17px !important;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 15px 0px;
+}
+
+.sec4 .container .productCard .cardText2 {
+    display: block;
+    transition: .5s ease;
+    opacity: 1;
+    text-align: center;
+}
+
+.sec4 .container .productCard:hover .cardText2 {
+    opacity: 0;
+}
+
+.sec4 .container .productCard .cardText2 h4 {
+    font-size: 20px !important;
+}
+
+.sec4 .container .productCard .image {
+    opacity: 0;
+    object-fit: contain;
+    width: 60%;
+    height: 60%;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s ease;
+}
+
+.sec4 .container .productCard:hover .image {
+    opacity: 1;
+}
+
+.sec4 .container .productCard:hover .frontImg {
+    z-index: 2;
+}
+
+.sec4 .container .productCard:hover .backImg {
+    z-index: 1;
+}
+
+.sec4 .container .productCard .hoverText {
+    display: none;
+    opacity: 0;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: "Paytone One", sans-serif;
+}
+
+
+.sec4 .container .productCard:hover .hoverText {
+    opacity: 1;
+    display: block;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .sec4 .container .productCard {
+        padding: 30px 20px;
+    }
+
+    .sec4 .container .productCard .cardText h2 {
+        font-size: 20px !important;
+    }
+
+    .sec4 .container .productCard .cardText p {
+        font-size: 15px !important;
+    }
+
+    .sec4 .container .productCard .cardText2 h4 {
+        font-size: 15px !important;
+    }
+
+    .sec4 .container .productCard .hoverText {
+        font-size: 13px !important;
+        left: 23%;
+    }
+}
+
+@media (max-width: 992px) {
+    .sec4 .container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 30px;
+    }
+
+    .sec4 .container .image {
+        width: 80%;
+        height: 80%;
+    }
+
+    .sec4 .container .productCard .hoverText {
+        left: 27%;
+    }
+}
+
+@media (max-width: 576px) {
+    .sec4 .container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    .sec4 .container .productCard .hoverText {
+        left: 35%;
+    }
+}
+@media (max-width: 320px) {
+
+    .sec4 .container .productCard .hoverText {
+        left: 30%;
+    }
+}
+/* =============== Light Mode Start =============== */
+.light .sec4 {
+    background-color: #F8F7F2 !important;
+}
+.light .sec4 .container .productCard .hoverText {
+    color: rgb(62, 105, 62);
+}
+/* =============== Dark Mode Start =============== */
+.dark .sec4 {
+    background-color: #121212 !important;
+    color: #F8F7F2;
+}
+
+.dark .sec4 .container .productCard p {
+    color: #F8F7F2;
+} 
+.dark .sec4 .container .productCard .hoverText {
+    color: rgb(122, 165, 122);
+}

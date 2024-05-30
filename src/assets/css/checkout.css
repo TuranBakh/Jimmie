@@ -1,0 +1,106 @@
+.checkout {
+    overflow: hidden;
+    padding: 30px 0px;
+}
+
+.checkout h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: "Paytone One", sans-serif;
+    padding: 30px 0px;
+}
+
+.checkout .form {
+    border-radius: 0.375rem ;
+    background-color: #fff;
+    padding: 30px;
+}
+.checkout .col-lg-12{
+display: flex; justify-content: center;
+}
+.checkout .form h3 {
+    font-size: 35px;
+    font-family: "Paytone One", sans-serif;
+    padding-bottom: 30px;
+}
+
+.checkout .form .mb-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: .5px solid rgb(65, 102, 65);
+}
+
+.checkout .form .form-label {
+    margin: 0px;
+    padding-right: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+
+}
+
+.checkout .form .form-label span {
+    color: red;
+}
+
+.checkout input {
+    width: 65%;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+.checkout .col-6  input{
+    width: 50% !important;
+}
+.checkout input:focus {
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.checkout .btn {
+    font-family: "Paytone One", sans-serif;
+    font-size: 20px;
+
+}
+
+/* =============== Light Mode Start =============== */
+.light .checkout {
+    background-color: #F8F7F2;
+    color: #1a1a1a;
+}
+.light .checkout .form {
+    background-color: #F8F7F2;
+}
+.light .checkout .form {
+    background-color: #F8F7F2;
+}
+.light .checkout .form  input{
+    background-color: #F8F7F2;
+}
+/* =============== Dark Mode Start =============== */
+.dark .checkout {
+    background-color: #121212;
+    color: #F8F7F2;
+}
+
+.dark .checkout .form {
+    background-color: #1A1A1A;
+    color: #F8F7F2;
+}
+.dark .checkout input {
+    background-color: #1A1A1A;
+    color: #fff;
+
+}
+.dark .checkout input::placeholder {
+    color: #f8f7f2c1;
+
+}
+@media (max-width:576px) {
+    .checkout h1 {
+        font-size: 45px;
+      
+    }
+    
+}

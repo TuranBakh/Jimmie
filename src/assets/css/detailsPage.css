@@ -1,0 +1,246 @@
+.detailsPage {
+    background-color: #F8F7F2;
+}
+
+.detailsPage .loading {
+    display: flex;
+    justify-content: center;
+}
+
+.detailsPage .loading img {
+    max-width: 400px;
+}
+
+.detailsPage .container .row {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detailsPage .container .detail {
+
+    padding: 100px 0px !important;
+}
+
+.detailsPage .container .row .imgBox2 {
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid rgb(62, 105, 62);
+    position: relative;
+    max-width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.detailsPage .me-2 {
+    margin-bottom: 10px;
+}
+
+.img1 {
+    z-index: 2;
+}
+
+.img2 {
+    z-index: 1;
+}
+
+.img1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.img2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.detailsPage h1 {
+    font-family: "Paytone One", sans-serif;
+    font-size: 70px;
+}
+
+.detailsPage h2 {
+    font-family: "Paytone One", sans-serif;
+    font-size: 35px;
+}
+
+.detailsPage p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+.detailsPage .btn {
+    font-family: "Paytone One", sans-serif;
+    font-size: 18px;
+}
+
+.detailsPage .btn i {
+    font-size: 25px;
+}
+
+.detailsPage .infoBox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.detailsPage .infoBox h2 {
+    font-family: "Paytone One", sans-serif;
+    font-size: 30px;
+    margin: 0px 20px 20px;
+}
+
+.detailsPage .active {
+
+    color: rgb(62, 105, 62);
+}
+
+.detailsPage .activeBox {
+    padding: 30px 100px;
+}
+
+.detailsPage .activeBox p {
+    text-align: center !important;
+}
+
+.detailsPage .activeBox h3 {
+
+    font-family: "Paytone One", sans-serif;
+    font-size: 25px;
+}
+
+.detailsPage .activeBox h3 span {
+    padding-left: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 2000px) {
+    .detailsPage .container .row .imgBox2 {
+        height: 55vh;
+    }
+}
+
+.detailsPage .singleCard {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+    .detailsPage .container .row .imgBox2 {
+        height: 60vh;
+    }
+
+    .detailsPage .contentBox {
+        padding-left: 30px;
+    }
+
+    .detailsPage .contentBox h1 {
+        font-size: 50px;
+    }
+
+    .detailsPage .contentBox h2 {
+        font-size: 30px;
+    }
+
+    .detailsPage p {
+        font-size: 16px;
+    }
+
+    .detailsPage .btn {
+        font-size: 16px;
+    }
+
+    .detailsPage .btn i {
+        font-size: 20px;
+    }
+
+    .detailsPage .activeBox h3 {
+        font-size: 20px !important;
+    }
+
+
+    .detailsPage .imgBox {
+        height: 55vh;
+    }
+
+    .detailsPage .randomTitle {
+        font-size: 50px !important;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .detailsPage .container .row .imgBox2 {
+        height: 90vh;
+    }
+
+    .detailsPage .contentBox {
+        padding-left: 0px;
+    }
+
+    .detailsPage .activeBox {
+        padding: 30px 0px;
+    }
+
+    .detailsPage .imgBox {
+        height: 90vh;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .detailsPage .infoBox {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .detailsPage .container .row .imgBox2 {
+        height: 80vh;
+    }
+
+    .detailsPage .padding {
+        padding: 0px 40px;
+    }
+
+    .detailsPage .imgBox {
+        height: 77vh;
+    }
+
+    .detailsPage .infoBox h2 {
+        font-family: "Paytone One", sans-serif;
+        font-size: 25px;
+        margin: 0px 20px 10px;
+    }
+}
+
+/* =============== Light Mode Start =============== */
+.light .detailsPage {
+    background-color: #F8F7F2;
+    color: #1a1a1a;
+}
+
+/* =============== Dark Mode Start =============== */
+.dark .detailsPage {
+    background-color: #121212 !important;
+    color: #F8F7F2;
+}

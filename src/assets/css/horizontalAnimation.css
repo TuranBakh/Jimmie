@@ -1,0 +1,31 @@
+.horizContainer {
+    background-color: rgb(62, 105, 62);
+    width: 100%;
+    overflow: hidden !important;
+    padding: 35px 0px;
+}
+
+.horizBox {
+    white-space: nowrap;
+    overflow: hidden !important;
+}
+
+.horizBox span {
+    overflow: hidden !important;
+    text-align: center;
+    font-size: 70px;
+    color: #F8F7F2;
+    font-family: "Paytone One", sans-serif;
+    display: inline-block;
+    animation: horizAnimation 13s linear infinite;
+}
+
+@keyframes horizAnimation {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

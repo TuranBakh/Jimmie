@@ -1,0 +1,120 @@
+.products {
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.products h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: "Paytone One", sans-serif;
+    padding-bottom: 50px;
+}
+
+.products .filterCategory {
+    padding-bottom: 30px;
+}
+
+.products h3 {
+    font-size: 25px;
+    font-family: "Paytone One", sans-serif;
+    padding: 20px 0px;
+}
+
+.products .filterCategory ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.products .filterCategory ul li {
+    list-style: none;
+    font-size: 17px !important;
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+
+.products .filterCategory ul .active {
+    font-family: "Paytone One", sans-serif;
+}
+
+.products .priceFilter .inputBox {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.products .dropdown {
+    background-color: #F8F7F2;
+    width: 90%;
+    padding: 15px 0;
+    border-radius: 10px;
+margin-bottom: 20px;
+
+}
+
+.products .priceFilter .inputBox input {
+    border-radius: 10px;
+    padding-left: 5px;
+    height: 45px !important;
+    width: 30%;
+}
+
+.products .priceFilter .inputBox button {
+    width: 20%;
+    padding: 10px;
+}
+
+.products .productItem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(8, auto);
+    gap: 20px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+    .products .productItem {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(11, auto);
+    }
+
+
+}
+
+@media (max-width: 576px) {
+    .products .productItem {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(22, auto);
+    }
+
+
+}
+
+/* =============== Light Mode Start =============== */
+.light .products {
+    background-color: #F8F7F2;
+    color: #1a1a1a;
+}
+
+.light .products .priceFilter .inputBox input {
+    background-color: #F8F7F2;
+    border: 1px solid rgb(62, 105, 62);
+}
+
+/* =============== Dark Mode Start =============== */
+.dark .products {
+    background-color: #121212;
+    color: #F8F7F2;
+}
+
+.dark .products .priceFilter .inputBox input {
+    background-color: #1a1a1a;
+    border: 1px solid rgb(122, 165, 122);
+}
+
+.dark .products .priceFilter .inputBox input::placeholder {
+    color: #f8f7f2c3;
+}

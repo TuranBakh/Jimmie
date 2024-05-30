@@ -1,0 +1,132 @@
+.cart {
+    /* overflow: hidden; */
+    padding: 30px 0px;
+
+}
+
+.cart h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: "Paytone One", sans-serif;
+    padding: 30px 0px;
+}
+.cart .col-lg-9{
+   overflow-x:auto;
+}
+.cart td {
+    vertical-align: middle;
+    text-align: center;
+}
+.cart th {
+    vertical-align: middle;
+    text-align: center;
+
+}
+.cart .btn-dec {
+    color: #F8F7F2;
+    background-color: red;
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding: 0 0 3px 0;
+    margin: 0;
+    border-radius: 5px;
+}
+.cart .linetotal{
+    border-top: #dee2e6 1px solid;
+}
+.cart .btn-inc {
+    color: #F8F7F2;
+    background-color: green;
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding: 0 0 3px 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.cart .btn-del {
+    color: #F8F7F2;
+    background-color: green;
+    border: none;
+    width: 30px;
+    height: 30px;
+    padding: 0 0 3px 0;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.cart .total {
+    border-radius: 0.375rem ;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+}
+
+.cart .totalItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart h2 {
+    margin: 0px 0px 20px;
+    font-family: "Paytone One", sans-serif;
+    font-size: 25px;
+}
+
+.cart h3 {
+    font-family: "Paytone One", sans-serif;
+    font-size: 20px;
+}
+
+.cart .promo .btn{
+    padding: 5px 10px !important;
+    border-radius: 0.375rem ;
+}.confirmBtn .confirmBtn2{
+    width: 100%;
+    border-radius: 0.375rem ;
+
+}
+.cart input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(102, 165, 102, .25);
+    border-color: rgb(102, 165, 102);
+}
+
+/* =============== Light Mode Start =============== */
+.light .cart {
+    background-color: #F8F7F2;
+    color: #1a1a1a;
+}
+.light .table{
+    background-color: #F8F7F2 !important;
+    color: #1a1a1a;
+}
+.light .cart .total{
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+/* =============== Dark Mode Start =============== */
+.dark .cart {
+    background-color: #121212;
+    color: #F8F7F2;
+}
+.dark .cart .table *{
+    color: #F8F7F2;
+}
+.dark .cart .table th{
+    background: #1a1a1a;
+}
+.dark .cart .table td{
+    background: #1a1a1a;
+} 
+.dark .cart .total{
+    background-color: #1a1a1a;
+    border: 1px solid #dee2e6;
+}
+@media (max-width: 992px) {
+    .cart h3 {
+        font-size: 20px !important;
+    }
+}

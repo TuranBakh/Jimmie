@@ -1,0 +1,100 @@
+.sec9 {
+    overflow: hidden;
+    background-image: url(../../src/assets/img/h1-counter-bcgr.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec9 * {
+    color: #F8F7F2;
+    font-family: "Paytone One", sans-serif;
+    text-align: center;
+}
+
+.sec9 .containers {
+    padding: 100px 0px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.sec9 span {
+    font-size: 50px;
+}
+
+.sec9 p {
+    font-size: 22px;
+}
+
+@media (max-width: 1000px) {
+    .sec9 .containers {
+        grid-template-columns: repeat(5, 1fr) !important;
+        grid-template-rows: repeat(2, 1fr) !important;
+    }
+
+    .sec9 .order {
+        grid-area: 1/1/2/2;
+    }
+
+    .sec9 .hour {
+        grid-area: 1/3/2/4;
+    }
+
+    .sec9 .chef {
+        grid-area: 1/5/2/6;
+    }
+
+    .sec9 .delivery {
+        grid-area: 2/2/3/3;
+    }
+
+    .sec9 .coupon {
+        grid-area: 2/4/3/5;
+    }
+
+    .sec9 span {
+        font-size: 60px;
+    }
+
+    .sec9 p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sec9 .containers {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(5, 1fr) !important;
+        gap: 20px;
+        padding: 20px 0px;
+    }
+
+    .sec9 .order {
+        grid-area: 1/1/2/2;
+    }
+
+    .sec9 .hour {
+        grid-area: 2/1/3/2;
+    }
+
+    .sec9 .chef {
+        grid-area: 3/1/4/2;
+    }
+
+    .sec9 .delivery {
+        grid-area: 4/1/5/2;
+    }
+
+    .sec9 .coupon {
+        grid-area: 5/1/6/2;
+    }
+
+    .sec9 span {
+        font-size: 60px;
+    }
+
+    .sec9 p {
+        font-size: 16px;
+    }
+}

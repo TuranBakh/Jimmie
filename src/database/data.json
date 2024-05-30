@@ -1,0 +1,634 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "en": "Double Burger",
+            "az": "İkiqat Burger"
+        },
+        "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 29.99,
+        "photo": "../../src/assets/img/shop-01-img-1.png",
+        "bgphoto": "../../src/assets/img/shop-hover-09.png",
+        "category": {
+            "en": "Burger",
+            "az": "Burger"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },
+        "weight": "0.5 kg",
+        "dimensions": "10 × 10 × 10 cm"
+    },
+    {
+        "id": 2,
+        "name": {
+            "en": "Cheese Fries",
+            "az": "Pendirli Kartof"
+        },
+        "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 9.99,
+        "photo": "../../src/assets/img/shop-02-img-01.png",
+        "bgphoto": "../../src/assets/img/shop-hover-08.png",
+        "category": {
+            "en": "Appetizer",
+            "az": "Qəlyanaltılar"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },
+        "weight": "0.5 kg",
+        "dimensions": "10 × 10 × 10 cm"
+    },
+    {
+        "id": 3,
+        "name": {
+            "en": "Fish Burger",
+            "az": "Balıq Burger"
+        },
+        "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 19.99,
+        "photo": "../../src/assets/img/shop-03-img-01.png",
+        "bgphoto": "../../src/assets/img/shop-hover-05.png",
+        "category": {
+            "en": "Burger",
+            "az": "Burger"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },
+        "weight": "0.5 kg",
+        "dimensions": "10 × 10 × 10 cm"
+    },
+    {
+        "id": 4,
+        "name": {
+            "en": "Onion Rings",
+            "az": "Soğan Halqaları"
+        },
+        "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 13.99,
+        "photo": "../../src/assets/img/shop-05-img-01.png",
+        "bgphoto": "../../src/assets/img/shop-hover-6.png",
+        "category": {
+            "en": "Appetizer",
+            "az": "Qəlyanaltılar"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },
+        "weight": "0.5 kg",
+        "dimensions": "10 × 10 × 10 cm"
+    },
+    {
+        "id": 5,
+        "name": {
+            "en": "Burger Menu",
+            "az": "Burger Menyu"
+        },
+        "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 25.99,
+        "photo": "../../src/assets/img/shop-06-img-01.png",
+        "bgphoto": "../../src/assets/img/shop-hover-7.png",
+        "category": {
+            "en": "Burger",
+            "az": "Burger"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },
+        "weight": "0.5 kg",
+        "dimensions": "10 × 10 × 10 cm"
+    },
+    {
+        "id": 6,
+        "name":
+        {
+            "en": "Taco Max",
+            "az": "Tako Max"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 17.99,
+        "photo":"../../src/assets/img/shop-04-img-01.png",
+        "bgphoto":"../../src/assets/img/shop-hover-04.png",
+        "category": {
+            "en": "Mexican Foods",
+            "az": "Meksika yeməkləri"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        }, 
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+
+    },
+    {
+        "id": 7,
+        "name":
+        {
+            "en": "Crust Burger",
+            "az": "Toyuq Burger"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price":17.99,
+        "photo":"../../src/assets/img/shop-08-img-01.png",
+        "bgphoto":"../../src/assets/img/shop-hover-09.png",
+        "category": {
+            "en": "Burger",
+            "az": "Burger"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },  
+    {
+        "id": 8,
+        "name":
+        {
+            "en": "Taco Dip",
+            "az": "Tako Sos"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 5.99,
+        "photo":"../../src/assets/img/shop-13-img-01.png",
+        "bgphoto":"../../src/assets/img/shop-hover-08.png",
+        "category": {
+            "en": "Mexican Foods",
+            "az": "Meksika yeməkləri"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },
+    {
+        "id": 9,
+        "name":
+        {
+            "en": "Fast Wrap",
+            "az": "Fast Dürüm"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 11.99,
+        "photo":"../../src/assets/img/shop-09-img-01.png",
+        "bgphoto":"../../src/assets/img/shop-hover-010.png",
+        "category": {
+            "en": "Mexican Foods",
+            "az": "Meksika yeməkləri"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        }, 
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },
+    {
+        "id": 10,
+        "name":
+        {
+            "en": "Duo Taco",
+            "az": "Cüt Tako"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 18.99,
+        "photo":"../../src/assets/img/shop-10-img-01.png",
+        "bgphoto":"../../src/assets/img/shop-hover-11.png",
+        "category": {
+            "en": "Mexican Foods",
+            "az": "Meksika yeməkləri"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        }, 
+         "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },
+    {
+        "id": 11,
+        "name":
+        {
+            "en": "Veffie Burger",
+            "az": "Veffie Burger"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price":28.99,
+        "photo":"../../src/assets/img/shop-11-img-01.png",
+        "bgphoto":"../../src/assets/img/shop-hover-012.png",
+        "category": {
+            "en": "Burger",
+            "az": "Burger"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        }, 
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },
+    {
+        "id": 12,
+        "name":
+        {
+            "en": "Burrito",
+            "az": "Burrito"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 26.99,
+        "photo":"../../src/assets/img/shop-12-img-01.png",
+        "bgphoto":"../../src/assets/img/shop-hover-013.png",
+        "category": {
+            "en": "Mexican Foods",
+            "az": "Meksika yeməkləri"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        }, 
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },
+    {
+        "id": 13,
+        "name":
+        {
+            "en": "Hawaiian",
+            "az": "Havai"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 42.99,
+        "photo":"../../src/assets/img/shop-012-img-01.png",
+        "bgphoto":"../../src/assets/img/shop-red-hover-01.png",
+        "category": {
+            "en": "Pizza",
+            "az": "Pizza"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },
+    {
+        "id": 14,
+        "name":
+        {
+            "en": "Meat Feast",
+            "az": "Qarışıq Ətli"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price":34.99,
+        "photo":"../../src/assets/img/shop-010-img-01.png",
+        "bgphoto":"../../src/assets/img/shop-red-hover-01.png",
+        "category": {
+            "en": "Pizza",
+            "az": "Pizza"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },  
+    {
+        "id": 15,
+        "name":
+        {
+            "en": "Margherita",
+            "az": "Marqarita"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 40.99,
+        "photo":"../../src/assets/img/shop-011-img-01-1.png",
+        "bgphoto":"../../src/assets/img/shop-red-hover-01.png",
+        "category": {
+            "en": "Pizza",
+            "az": "Pizza"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },  
+    {
+        "id": 16,
+        "name":
+        {
+            "en": "Special",
+            "az": "Special"
+        },
+        "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 44.99,
+        "photo":"../../src/assets/img/shop-14.png",
+        "bgphoto":"../../src/assets/img/shop-red-hover-01.png",
+        "category": {
+            "en": "Pizza",
+            "az": "Pizza"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },        
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },  
+    {
+        "id": 17,
+        "name":
+        {
+            "en": "Jim`s Pizza",
+            "az": "Jim Pizzası"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 39.99,
+        "photo":"../../src/assets/img/shop-15.png",
+        "bgphoto":"../../src/assets/img/shop-red-hover-01.png",
+        "category": {
+            "en": "Pizza",
+            "az": "Pizza"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },        
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },  
+    {
+        "id": 18,
+        "name":
+        {
+            "en": "Italiano",
+            "az": "İtalyan"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 41.99,
+        "photo":"../../src/assets/img/shop-16.png",
+        "bgphoto":"../../src/assets/img/shop-red-hover-01.png",
+        "category": {
+            "en": "Pizza",
+            "az": "Pizza"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },  
+    {
+        "id": 19,
+        "name":
+        {
+            "en": "Inferno",
+            "az": "İnferno"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 45.99,
+        "photo":"../../src/assets/img/shop-17.png",
+        "bgphoto":"../../src/assets/img/shop-red-hover-01.png",
+        "category": {
+            "en": "Pizza",
+            "az": "Pizza"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },        
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },  
+    {
+        "id": 20,
+        "name":
+        {
+            "en": "Mediterranean",
+            "az": "Aralıq dənizi"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 34.99,
+        "photo":"../../src/assets/img/shop-18.png",
+        "bgphoto":"../../src/assets/img/shop-red-hover-01.png",
+        "category": {
+            "en": "Pizza",
+            "az": "Pizza"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },  
+    {
+        "id": 21,
+        "name":
+        {
+            "en": "Hampesto",
+            "az": "Hampesto"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 39.99,
+        "photo":"../../src/assets/img/shop-20.png",
+        "bgphoto":"../../src/assets/img/shop-red-hover-01.png",
+        "category": {
+            "en": "Pizza",
+            "az": "Pizza"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },        
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    },  
+    {
+        "id": 22,
+        "name":
+        {
+            "en": "Four cheeses",
+            "az": "Dörd pendir"
+        },
+       "title": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio. Quae odio quasi repellat sit fugiat dolor manet. Officia et dolorum. Eos non itaque."
+        },
+        "desc": {
+            "en": "Voluptatem ea rerum nisi. Ullam debitis optio.",
+            "az": "Voluptatem ea rerum nisi. Ullam debitis optio."
+        },
+        "price": 42.99,
+        "photo":"../../src/assets/img/shop-21.png",
+        "bgphoto":"../../src/assets/img/shop-red-hover-01.png",
+        "category": {
+            "en": "Pizza",
+            "az": "Pizza"
+        },
+        "description": {
+            "en": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios.",
+            "az": "Paulo fastidii laboras vix an, Lorem Ipsum. Proin qual de suis erestopius sed diam nonummy nibh sollicituin, lorem quis biben auct or nisi elit consequ ipsum. Nec sagittis sem nibh id elit. vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare. Sed non mauris vitae erat consequat auc tor eu in elit. Class aptent taciti socios."
+        },       
+        "weight":"0.5 kg",
+        "dimensions":"10 × 10 × 10 cm"
+    }
+]

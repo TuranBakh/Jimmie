@@ -1,0 +1,81 @@
+.sec8 {
+    overflow: hidden;
+    padding: 100px 0px;
+}
+
+.sec8 .content {
+    width: 49%;
+    height: 100%;
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+
+.sec8 .content h2 {
+    font-family: "Paytone One", sans-serif;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.sec8 .content p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+}
+
+.sec8 h5 {
+    margin: 10px 0px 5px;
+    font-size: 25px;
+    font-family: "Paytone One", sans-serif;
+}
+
+.sec8 .teamContent p {
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+}
+
+@media (max-width: 992px) {
+    .sec8 .content {
+        width: 66%;
+    }
+
+    .team .social li a {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .sec8 h5 {
+        font-size: 18px !important;
+    }
+
+    .sec8 .teamContent p {
+
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sec8 .content {
+        width: 90%;
+    }
+
+  
+}
+
+/* =============== Light Mode Start =============== */
+.light .sec8 {
+    background-color: #F8F7F2;
+    color: #000;
+}
+
+.light .team .social {
+    background: #F8F7F2;
+}
+/* =============== Dark Mode Start =============== */
+.dark .sec8 {
+    background-color: #121212;
+    color: #F8F7F2;
+}
+
+.dark .team .social {
+    background: #121212;
+}

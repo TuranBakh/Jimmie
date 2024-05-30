@@ -1,0 +1,121 @@
+.blog {
+    text-align: center;
+}
+.blogpage{
+    padding: 50px 0px;
+}
+.blogpage h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: "Paytone One", sans-serif;
+    padding-bottom: 30px;
+}
+ .blog .blogCard {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+ .blog .blogCard img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+ .blog .blogCard img:hover {
+    transform: scale(1.1);
+}
+
+ .blog .blogDate {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    z-index: 1;
+    clip-path: polygon(100% 0, 100% 100%, 50% 75%, 0 100%, 0 0);
+    font-family: "Paytone One", sans-serif;
+    padding: 15px 15px 25px;
+    font-size: 15px;
+}
+
+ .blog .blogContent h5 {
+    margin: 20px 0px 10px;
+    font-size: 25px;
+    font-family: "Paytone One", sans-serif;
+}
+
+ .blog .blogContent p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 10px;
+}
+
+ .blog .blogContent a {
+    text-decoration: none;
+}
+
+ .blog .blogContent h6 {
+    font-family: "Paytone One", sans-serif;
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+     .blog .blogContent h5 {
+        font-size: 22px !important;
+    }
+
+     .blog .blogContent p {
+        font-size: 14px !important;
+    }
+
+     .blog .blogContent h6 {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 767px) {
+     .blog .blogContent h6 {
+        margin-bottom: 50px;
+    }
+}
+/* =============== Light Mode Start =============== */
+.light  {
+    background-color: #F8F7F2;
+}
+
+.light  .blog .blogDate {
+    background: #F8F7F2;
+    color: rgb(62, 105, 62);
+}
+
+.light  .blog .blogContent h6 {
+    color: rgb(62, 105, 62);
+}
+
+/* =============== Dark Mode Start =============== */
+.dark  {
+    background-color: #121212 !important;
+}
+
+.dark  .blog .blogDate {
+    background: #121212;
+    color: rgb(122, 165, 122);
+}
+
+.dark  .blog .blogContent h6 {
+    color: rgb(122, 165, 122);
+}
+
+.dark  .blog .blogContent h5 {
+    color: #F8F7F2;
+}
+
+.dark  .blog .blogContent p {
+    color: #F8F7F2;
+}
+
+.dark  .blog .blogContent a {
+    color: #F8F7F2;
+}
+
+.dark  .content h2 {
+    color: #F8F7F2;
+}

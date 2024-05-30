@@ -1,0 +1,125 @@
+.singleCardBlog {
+    overflow: hidden;
+    padding: 100px 0px;
+}
+
+.singleCardBlog .content h2 {
+    font-family: "Paytone One", sans-serif;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+.singleCardBlog .blog {
+    text-align: center;
+}
+
+.singleCardBlog .blog .blogCard {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.singleCardBlog .blog .blogCard img {
+    height: 40vh !important;
+    transition: transform 0.5s ease-in-out;
+}
+
+.singleCardBlog .blog .blogCard img:hover {
+    transform: scale(1.1);
+}
+
+.singleCardBlog .blog .blogDate {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    z-index: 1;
+    clip-path: polygon(100% 0, 100% 100%, 50% 75%, 0 100%, 0 0);
+    font-family: "Paytone One", sans-serif;
+    padding: 15px 15px 25px;
+    font-size: 15px;
+}
+
+.singleCardBlog .blog .blogContent h5 {
+    margin: 20px 0px 10px;
+    font-size: 25px;
+    font-family: "Paytone One", sans-serif;
+}
+
+.singleCardBlog .blog .blogContent p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 10px;
+}
+
+.singleCardBlog .blog .blogContent a {
+    text-decoration: none;
+}
+
+.singleCardBlog .blog .blogContent h6 {
+    font-family: "Paytone One", sans-serif;
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+    .singleCardBlog .blog .blogContent h5 {
+        font-size: 22px !important;
+    }
+
+    .singleCardBlog .blog .blogContent p {
+        font-size: 14px !important;
+    }
+
+    .singleCardBlog .blog .blogContent h6 {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .singleCardBlog .blog .blogContent h6 {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* =============== Light Mode Start =============== */
+.light .singleCardBlog {
+    background-color: #F8F7F2;
+}
+
+.light .singleCardBlog .blog .blogDate {
+    background: #F8F7F2;
+    color: rgb(62, 105, 62);
+}
+
+.light .singleCardBlog .blog .blogContent h6 {
+    color: rgb(62, 105, 62);
+}
+
+/* =============== Dark Mode Start =============== */
+.dark .singleCardBlog {
+    background-color: #121212 !important;
+}
+
+.dark .singleCardBlog .blog .blogDate {
+    background: #121212;
+    color: rgb(122, 165, 122);
+}
+
+.dark .singleCardBlog .blog .blogContent h6 {
+    color: rgb(122, 165, 122);
+}
+
+.dark .singleCardBlog .blog .blogContent h5 {
+    color: #F8F7F2;
+}
+
+.dark .singleCardBlog .blog .blogContent p {
+    color: #F8F7F2;
+}
+
+.dark .singleCardBlog .blog .blogContent a {
+    color: #F8F7F2;
+}
+
+.dark .singleCardBlog .content h2 {
+    color: #F8F7F2;
+}

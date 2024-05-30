@@ -1,0 +1,147 @@
+.sec3 {
+    overflow: hidden;
+}
+
+.sec3 .col-12 {
+    margin: 0px;
+    padding: 0px;
+}
+.sec3 .imgBox  {
+  overflow: hidden;
+}
+.sec3 .imgBox img {
+    max-width: 130%;
+    height: auto;
+}
+
+.sec3 .contentBox {
+    padding-left: 65px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.sec3 .contentBox h2 {
+    font-family: "Paytone One", sans-serif;
+    font-size: 45px;
+    overflow: visible;
+    margin-bottom: 25px;
+}
+.sec3 .contentBox .btn {
+    font-family: "Paytone One", sans-serif;
+}
+.sec3 .contentBox p {
+    font-family: 'Nunito Sans', sans-serif;
+    width: 80%;
+}
+
+.sec3 .contentBox .btn {
+    margin-top: 25px;
+}
+
+.sec3 .contentBox .listItem {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.sec3 .contentBox .listItem i {
+    font-size: 20px;
+    padding-right: 10px;
+    overflow: visible;
+}
+
+.sec3 .contentBox .listItem p {
+    width: 100% !important;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .sec3 .contentBox h2 {
+        font-size: 40px !important;
+        margin-bottom: 20px;
+    }
+
+    .sec3 .contentBox p {
+        width: 70%;
+    }
+
+    .sec3 .contentBox .btn {
+        padding: 17px 30px;
+        font-size: 17px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .sec3 .contentBox h2 {
+        font-size: 27px;
+        margin-bottom: 15px;
+    }
+
+    .sec3 .contentBox p {
+        font-size: 15px;
+        width: 85%;
+    }
+
+    .sec3 .contentBox .listItem i {
+        font-size: 13px;
+    }
+
+    .sec3 .contentBox .btn {
+        padding: 15px 20px;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sec3 .contentBox {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        border: .5px solid rgb(62, 105, 62);
+    }
+}
+
+@media (max-width: 576px) {
+    .sec3 .contentBox h2 {
+        font-size: 35px;
+    }
+}
+/* =============== Light Mode Start =============== */
+.light .sec3 {
+    background-color: #F8F7F2;
+    border: 1px solid rgb(62, 105, 62);
+}
+
+.light .sec3 .imgBox img {
+    border: 1px solid rgb(62, 105, 62);
+}
+.light .sec3 .contentBox .listItem i {
+    color: rgb(62, 105, 62);
+}
+@media (max-width: 768px) {
+    .light .sec3 .contentBox {
+        border: .5px solid rgb(62, 105, 62);
+    }
+}
+/* =============== Dark Mode Start =============== */
+.dark .sec3 {
+    background-color: #121212;
+    border: 1px solid rgb(122, 165, 122);
+    color: #F8F7F2;
+}
+
+.dark .sec3 .imgBox img {
+    border: 1px solid rgb(122, 165, 122);
+} 
+.dark .sec3 .contentBox .listItem i {
+    color: rgb(122, 165, 122);
+}
+@media (max-width: 768px) {
+    .dark .sec3 .contentBox {
+        border: .5px solid rgb(122, 165, 122);
+    }
+}

@@ -1,0 +1,119 @@
+.sec1 {
+    overflow: hidden;
+    background-color: rgb(62, 105, 62);
+}
+
+.sec1 .row {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec1 .row .blobElement {
+    position: relative;
+    border-radius: 72% 28% 63% 37% / 51% 58% 42% 49%;
+    background-color: rgb(113, 138, 62);
+    padding: 50px 30px;
+    text-align: center;
+}
+
+#heroBtn {
+    font-family: "Paytone One", sans-serif !important;
+    border: #ECFEAF 2px solid;
+    color: #ECFEAF;
+
+}
+
+#heroBtn:hover {
+    border: #ECFEAF 2px solid !important;
+    color: #ECFEAF !important;
+}
+
+.sec1 h1 {
+    font-family: "Paytone One", sans-serif;
+    font-size: 80px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(113, 138, 62);
+    text-shadow: 10px 3px 10px #23430C;
+    color: #ECFEAF;
+    margin-bottom: 20px;
+
+}
+
+.slide-in-fwd-center {
+    animation: slide-in-fwd-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@keyframes slide-in-fwd-center {
+    0% {
+        transform: translateZ(-1400px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+.sec1 .row .blobElement img {
+
+    overflow: visible !important;
+    max-width: 80%;
+    height: auto;
+    z-index: 100 !important;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .sec1 .row {
+        padding: 30px;
+    }
+
+    #heroBtn {
+        font-size: 15px;
+        border: #ECFEAF 1px solid;
+        padding: 15px 30px;
+    }
+
+    .sec1 h1 {
+        font-size: 55px !important;
+        text-shadow: 1px 2px 2px #23430C;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #heroBtn {
+        font-size: 13px;
+        border: #ECFEAF 1px solid;
+        padding: 10px 20px;
+    }
+
+    .sec1 .row {
+        padding: 20px 30px;
+    }
+
+    .sec1 .row .blobElement {
+        padding: 30px 15px;
+    }
+
+    .sec1 h1 {
+        font-size: 40px;
+        -webkit-text-stroke-width: 1px;
+        text-shadow: 1px 1px 1px #23430C;
+        margin-bottom: 15px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .sec1 .row {
+        padding: 40px 20px;
+    }
+
+    .sec1 h1 {
+        font-size: 30px;
+    }
+}
